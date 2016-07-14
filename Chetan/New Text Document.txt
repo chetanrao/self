@@ -7,7 +7,7 @@
 			<i class="marR10 icon-blue" ng-class="{'icon-chevron-down btn-filter-color' : filterBtn == true, 'icon-chevron-up' : filterBtn == false}"></i>
 			</div>
 
-			<div ng-show="showToolbar == true && exportAccess == true" class="btn filter-float btn-filter btn-filter-color" data-toggle="dropdown" 
+			asa<div ng-show="showToolbar == true && exportAccess == true" class="btn filter-float btn-filter btn-filter-color" data-toggle="dropdown" 
 			data-animation="am-fade-and-slide-bottom" bs-dropdown data-template="dropdownbody" ng-click="clickFn('export')">Export
 			<i ng-show="exportIconCtrl == false" class="marR10 icon-chevron-down icon-blue btn-filter-color"></i>
 			<i ng-show="exportIconCtrl == true" class="marR10 icon-chevron-up icon-blue btn-filter-color"></i>
